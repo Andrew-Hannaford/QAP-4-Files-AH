@@ -108,23 +108,23 @@ while True:
     print(f"Glass Coverage: {'Yes' if glass_coverage else 'No'}")
     print(f"Loaner Car Coverage: {'Yes' if loaner_car else 'No'}")
     print(f"Payment Method: {payment_method}")
-    print("-------------------------------------")
+    print("----------------------------------------")
     print(f"Total Premium: ${total_premium:,.2f}")
     print(f"HST (15%): ${hst:,.2f}")
-    print("-------------------------------------")
+    print("----------------------------------------")
     print(f"Total Cost: ${total_cost:,.2f}")
     print(f"Down Payment: ${down_payment:,.2f}")
     print(f"Monthly Payment: ${monthly_payment:,.2f}")
-    print("-------------------------------------")
+    print("----------------------------------------")
     print(f"Invoice Date: {invoice_date.strftime('%Y-%m-%d')}")
     print(f"First Payment Date: {first_payment_date.strftime('%Y-%m-%d')}")
-    print("=====================================")
+    print("========================================")
         
     
     # Display previous claims
     print("  Previous Claims:")
     print("  Claim #  Claim Date        Amount")
-    print("  ---------------------------------")
+    print("  ------------------------------------")
 
     
 
